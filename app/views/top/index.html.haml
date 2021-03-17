@@ -1,0 +1,11 @@
+.contents
+  .head-setion
+    - @users.each do |user|
+      .textarea
+        %p.name 
+          名前
+          = user.user_name
+          
+        %p.age
+          ￥
+          = user.age
